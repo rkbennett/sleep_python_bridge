@@ -410,8 +410,8 @@ class CSConnector:
         return self.ag_get_object(command)
 
     def get_downloads(self) -> list:
-         command = "return downloads()"
-           return self.ag_get_object(command)
+        command = "return downloads()"
+        return self.ag_get_object(command)
 
     def get_hosts(self) -> list:
         command = "return hosts()"
